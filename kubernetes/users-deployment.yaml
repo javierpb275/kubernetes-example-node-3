@@ -14,4 +14,6 @@ spec:
     spec:
       containers:
         - name: users
-          image: jpb275/kub-third-app-users
+          image: jpb275/kub-third-app-users:latest
+        - name: auth
+          image: jpb275/kub-third-app-auth:latest
