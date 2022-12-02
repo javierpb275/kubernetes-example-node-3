@@ -15,5 +15,8 @@ spec:
       containers:
         - name: users
           image: jpb275/kub-third-app-users:latest
+          env:
+            - name: AUTH_ADDRESS
+              value: localhost
         - name: auth
           image: jpb275/kub-third-app-auth:latest
