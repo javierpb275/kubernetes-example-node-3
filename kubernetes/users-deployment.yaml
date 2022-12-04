@@ -17,4 +17,4 @@ spec:
           image: jpb275/kub-third-app-users:latest
           env:
             - name: AUTH_ADDRESS
-              value: localhost
+              value: "10.106.210.120"
