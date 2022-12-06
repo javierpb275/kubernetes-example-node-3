@@ -17,4 +17,5 @@ spec:
           image: jpb275/kub-third-app-users:latest
           env:
             - name: AUTH_ADDRESS
-              value: "10.106.210.120"
+              #value: "10.106.210.120"
+              value: "auth-service.default"
